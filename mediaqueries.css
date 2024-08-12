@@ -11,33 +11,14 @@
       height: fit-content;
     }
   }
-  
 
   @media screen and (max-width: 1920px) {
-    body {
-      zoom: 80%; /* Zooms the page to 80% of its original size */
-    } 
 
-    section {
-      padding-top: 10vh; /* Increase top padding */
-      margin: 0 12rem; /* Increase left and right margins */
   }
-
   
-
-    .projects-arrow{
-      right: -5rem; /* Adjust this value as needed */
-      bottom: 5rem; /* Adjust this value to move the arrow up or down */
-  }
-    
-    #projects {
-      padding-bottom: 200px; /* Adjust the value as needed */
-  }
-
-    #contact {
-      margin-top: 200px; /* Adjust the value as needed */
-    }
-  }
+  
+  
+ 
 
   
 
