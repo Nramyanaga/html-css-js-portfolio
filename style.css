@@ -372,7 +372,7 @@ section{
   .projects-arrow {
     position: absolute;
     right: -5rem; /* Adjust this value as needed */
-    bottom: -40rem; /* Adjust this value to move the arrow up or down */
+    bottom: -20rem; /* Adjust this value to move the arrow up or down */
 }
 
   .color-container{
@@ -388,7 +388,7 @@ section{
 
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
     gap: 15px; 
   }
   
